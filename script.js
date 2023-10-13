@@ -1,8 +1,11 @@
-function renderSquares () {
+function renderSquares() {
+    const wrapper = document.querySelector('#wrapper')
     
-    const wrapper = document.getElementById('wrapper')
     for (let i = 0; i < 256; i++) {
-        wrapper.append()
+        const div = document.createElement('div')
+        
+        wrapper.appendChild(div)
     }
-
 }
+
+renderSquares()
